@@ -9,7 +9,7 @@ public class Test1 {
 	{
 
 		Parent fa = new Parent();
-		//Child so = (Child) new Parent();			// 컴파일 오류가 남. 다운캐스팅 불가. 좀더 구체적으로 속성과 성질이 정해져 있지 않은 참조형 데이터는 JVM이 알 수 없음.
+		//Child so = (Child) new Parent();			// 컴파일 오류가 남. 다운캐스팅 불가. 좀더 구체적으로 자식을 만들어서 부모로 캐스팅은 되지만 부모를 만들어서 자식으로 캐스팅은 안됨.
 		Child so = new Child();						// 결과값 Start!! 가 출력.
 		
 		so.method1();
