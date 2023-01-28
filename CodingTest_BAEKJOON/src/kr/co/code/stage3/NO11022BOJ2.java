@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ11021NO2 {
+public class NO11022BOJ2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +17,7 @@ public class BOJ11021NO2 {
 			st = new StringTokenizer(br.readLine(), " ");
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
-			System.out.println("Case #" + i + ": " + (a + b));
+			System.out.println("Case #" + i + ": " + a + " + " + b +" = "+ (a + b));
 		}
 
 	}

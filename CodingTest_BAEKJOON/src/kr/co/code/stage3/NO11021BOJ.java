@@ -2,7 +2,7 @@ package kr.co.code.stage3;
 
 import java.util.Scanner;
 
-public class BOJ11022NO {
+public class NO11021BOJ {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class BOJ11022NO {
 		for (int i = 1; i < t + 1; i++) {
 			int a = s.nextInt();
 			int b = s.nextInt();
-			System.out.println("Case #" + i + ": " + a + " + " + b +" = "+ (a + b));
+			System.out.println("Case #" + i + ": " + (a + b));
 		}
 		s.close();
 	}
