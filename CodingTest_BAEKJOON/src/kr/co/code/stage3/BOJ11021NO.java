@@ -2,7 +2,7 @@ package kr.co.code.stage3;
 
 import java.util.Scanner;
 
-public class AAddB {
+public class BOJ11021NO {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
