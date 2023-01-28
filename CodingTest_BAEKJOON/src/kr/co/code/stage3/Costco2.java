@@ -10,7 +10,6 @@ public class Costco2 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
-
 		int total = Integer.parseInt(br.readLine());
 		int tAmount = Integer.parseInt(br.readLine());
 
